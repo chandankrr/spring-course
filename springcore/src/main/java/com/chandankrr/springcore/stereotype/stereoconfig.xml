@@ -20,4 +20,10 @@
     	<value>Mumbai</value>
     </util:list>
     
+    <bean class="com.chandankrr.springcore.stereotype.Teacher" name="teacher" scope="prototype">
+    	<property name="name">
+    		<value>Aman</value>
+    	</property>
+    </bean>
+    
 </beans>

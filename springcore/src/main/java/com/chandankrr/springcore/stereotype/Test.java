@@ -11,6 +11,20 @@ public class Test {
 		Student s1 = context.getBean("obj", Student.class);
 		
 		System.out.println(s1);
+		System.out.println(s1.hashCode());
+		
+		Student s2 = context.getBean("obj", Student.class);
+		
+		System.out.println(s2);
+		System.out.println(s2.hashCode());
+		
+//		using xml: changing the bean scope from singleton to prototype
+		Teacher t1 = context.getBean("teacher", Teacher.class);
+		Teacher t2 = context.getBean("teacher", Teacher.class);
+		
+		System.out.println(t1.hashCode());
+		System.out.println(t2.hashCode());
+
 	}
 
 }
