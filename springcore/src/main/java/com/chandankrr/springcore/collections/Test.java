@@ -14,5 +14,7 @@ public class Test {
 		System.out.println(employee1.getPhones());
 		System.out.println(employee1.getAddresses());
 		System.out.println(employee1.getCourses());
+		
+		System.out.println(employee1.getPhones().getClass());
 	}
 }
