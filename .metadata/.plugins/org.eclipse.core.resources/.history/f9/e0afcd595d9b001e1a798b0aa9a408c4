@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans.xsd
+    http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context.xsd"> 
+    
+    <bean class="com.chandankrr.springcore.Student" name="student1">
+        <!-- 1st way: using value tags -->
+    	<property name="studentId">
+    		<value>22344</value>
+    	</property>
+    	
+    	<property name="studentName">
+    		<value>Chandan Kumar</value>
+    	</property>
+    	
+    	<property name="studentAddress">
+    		<value>Patna</value>
+    	</property>    	
+    </bean>
+    
+    <bean class="com.chandankrr.springcore.Student" name="student2">
+        <!--  2nd way: using value attribute -->
+    	<property name="studentId" value="22233" />
+    	
+    	<property name="studentName" value="Ravi Kumar" />
+    	
+    	<property name="studentAddress" value="Gaya" />
+    </bean>
+    
+    <bean class="com.chandankrr.springcore.Student" name="student3" p:studentId="236598" p:studentName="Chandan Kumar" p:studentAddress="Lucknow" />
+    
+    
+</beans>

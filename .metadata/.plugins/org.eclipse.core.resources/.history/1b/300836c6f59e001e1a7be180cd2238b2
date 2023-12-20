@@ -1,0 +1,5 @@
+package com.chandankrr.springcore.autowire;
+
+public class Address {
+
+}

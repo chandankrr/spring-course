@@ -1,0 +1,8 @@
+package com.chandankrr.springcore.reference;
+
+public class A {
+	private int x;
+	private B obj;
+	
+	
+}
