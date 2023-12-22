@@ -22,4 +22,8 @@
     	</property>
     </bean>
     
+    <bean class="com.chandankrr.spring.jdbc.dao.StudentDaoImpl" name="studentDao">
+    	<property name="jdbcTemplate" ref="jdbcTemplate"/>
+    </bean>
+    
 </beans>
