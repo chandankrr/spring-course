@@ -1,5 +1,7 @@
 package com.chandankrr.spring.jdbc;
 
+import java.util.List;
+
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 import com.chandankrr.spring.jdbc.dao.StudentDao;
@@ -45,7 +47,14 @@ public class App
 		 */
         
         // select single student data
-        Student student = studentDao.getStudent(111);
-        System.out.println(student);
+		/*
+		 * Student student = studentDao.getStudent(111); System.out.println(student);
+		 */
+        
+        // selecting multiple data of students
+        List<Student> students = studentDao.getAllStudents();
+        for(Student student : students) {
+        	System.out.println(student);
+        }
     }
 }
