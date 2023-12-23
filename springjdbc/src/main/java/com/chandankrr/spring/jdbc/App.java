@@ -39,7 +39,13 @@ public class App
 		 */
         
         // deleted student data in table
-        int result = studentDao.delete(555);
-        System.out.println("Deleted: " + result);
+		/*
+		 * int result = studentDao.delete(555); System.out.println("Deleted: " +
+		 * result);
+		 */
+        
+        // select single student data
+        Student student = studentDao.getStudent(111);
+        System.out.println(student);
     }
 }
