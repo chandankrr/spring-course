@@ -1,4 +1,2 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<typeInfoHistroy>
-    <typeInfo handle="=springjdbc/C:\/Users\/chand\/.m2\/repository\/org\/springframework\/spring-jdbc\/6.1.0\/spring-jdbc-6.1.0.jar=/maven.pomderived=/true=/=/javadoc_location=/jar:file:\/C:\/Users\/chand\/.m2\/repository\/org\/springframework\/spring-jdbc\/6.1.0\/spring-jdbc-6.1.0-javadoc.jar\!\/=/=/maven.groupId=/org.springframework=/=/maven.artifactId=/spring-jdbc=/=/maven.version=/6.1.0=/=/maven.scope=/compile=/=/maven.pomderived=/true=/&lt;org.springframework.jdbc.core(JdbcTemplate.class[JdbcTemplate" modifiers="33" timestamp="1703246805531"/>
-</typeInfoHistroy>
+<typeInfoHistroy/>
