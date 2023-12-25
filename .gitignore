@@ -1,0 +1,35 @@
+# Compiled class file
+*.class
+
+# Log files
+*.log
+
+# IntelliJ IDEA files
+.idea/
+
+# Eclipse files
+.classpath
+.project
+.settings/
+
+# Maven build directory
+target/
+
+# Gradle build directory
+build/
+
+# Spring Boot configuration file
+application.properties
+
+# Spring Boot log file
+spring.log
+
+# Eclipse .metadata directory
+.metadata/
+
+# Visual Studio Code settings
+.vscode/
+
+# Operating System files
+.DS_Store
+Thumbs.db
